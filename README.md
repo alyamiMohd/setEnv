@@ -1,7 +1,11 @@
 # setEnv
 If you ever find yourself opening multiple programs, chrome tabs, and taking a chunk of your time 'daily', I think you might like this simple project, This project provides: -Opening all your desired apps -Organizing them via Windows Multitasking -Write on your specific apps *optional*, and all of this won't take a second of your precious time!
-
-Here's a quick video showing my preferred organiazation of my apps:
+(The reason why I made this project, is that every single day, I open (2 google tabs, 3 git bash windows, vs, spotify, ...), in 2 separate monitors, and here's what it looks like:
+<br>
+![image](https://user-images.githubusercontent.com/130024303/230506835-f78dd37a-7703-4816-90e5-32a71629dada.png)
+<br>
+So it took a huge part of my time daily, and after making the project, that's how it went
+a quick video showing my preferred organiazation of my apps:
 https://youtu.be/3UBTzMYZMVY
 
 
