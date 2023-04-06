@@ -1,5 +1,5 @@
 import os,pyautogui,time
-arr = ['code','chromeServer','gitbash','gitbashServer','gitBashCMD','chromeUdemy','spotify']
+arr = ['code','chromeServer','gitbashLaunch','gitbashServer','gitbashCMD','chromeUdemy','spotify']
 
 def organizeMe(name='',press='',press2='',press3='',press4='',press5='',write=''):
     if name!='':
@@ -44,12 +44,12 @@ for i in range(len(arr)):
         organizeMe(name='code',press='left')
     elif arr[i] =='chromeServer':
         organizeMe('chrome','right', 'up', write='localhost:3000')
-    elif arr[i] =='gitbash':
-        os.startfile(r"C:\Users\aa\Desktop\Git Bash.lnk")
-        organizeMe(press='right',press2='down',write="pwd")
-    elif arr[i] =='gitbashCMD':
+    elif arr[i] =='gitbashLaunch':
         os.startfile(r"C:\Users\aa\Desktop\Git Bash.lnk")
         hideMe(write='mongod')
+    elif arr[i] =='gitbashCMD':
+        os.startfile(r"C:\Users\aa\Desktop\Git Bash.lnk")
+        organizeMe(press='right',press2='down',write="pwd")
     elif arr[i] =='spotify':
         hideMe(name='spotify')
     elif arr[i]=='chromeUdemy':
@@ -58,24 +58,4 @@ for i in range(len(arr)):
         os.startfile(r"C:\Users\aa\Desktop\Git Bash.lnk")
         time.sleep(1)
         organizeMe(press='right',press2='up',press3='right', press4='right',press5='down',write="mongosh")
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
