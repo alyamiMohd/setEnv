@@ -5,7 +5,7 @@ If you ever find yourself opening multiple programs, chrome tabs, and taking a c
 ![image](https://user-images.githubusercontent.com/130024303/230506835-f78dd37a-7703-4816-90e5-32a71629dada.png)
 <br>
 So it took a huge part of my time daily, and after making the project, that's how it went
-a quick video showing my preferred organiazation of my apps:
+, so here's a quick video showing my preferred organiazation of my apps using my project:
 https://youtu.be/3UBTzMYZMVY
 
 
